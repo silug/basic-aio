@@ -9,6 +9,7 @@ mod 'puppetlabs-puppetdb', '7.7.1'
 # These modules are all dependencies for puppetdb.
 mod 'puppetlabs-inifile', '5.0.0'
 mod 'puppetlabs-postgresql', '7.0.2'
+mod 'puppetlabs-apt', '8.0.1'
 mod 'puppetlabs-concat', '7.0.0'
 mod 'puppetlabs-firewall', '3.0.0'
 
@@ -24,6 +25,7 @@ mod 'puppetlabs-git', '0.5.0' # Required by puppet-r10k
 mod 'puppet-epel', '3.0.1'
 
 mod 'puppetlabs-puppetserver_gem', '1.1.1' # Required for eyaml.
+mod 'puppetlabs-translate', '2.2.0' # Required by puppetlabs-apt
 
 # mcollective with NATS as message queue
 mod 'choria-mcollective', '0.13.1'
